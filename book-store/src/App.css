@@ -33,7 +33,7 @@
 
   header {
     width: 100%;
-    background-color:#7d838e;
+    background-color:#c4c7ce;
     height: 80px;
     margin-bottom: 50px;
   }
@@ -56,18 +56,20 @@
   li > a {
     color: white;
     text-decoration: none;
-  }
+   }
 
   li > a:focus {
-    color: #0275d8;
+    color: #317cbc;
+    text-decoration: none;
   }
 
   li > a:hover {
-    color: #0275d8;
+    color: #317cbc;
+    text-decoration: none;
   }
 
   li > a:active {
-    color: #0275d8;
+    color: #317cbc;
   }
 
   .text-center {
@@ -78,6 +80,6 @@
     width: 80rem;
   }
 
-  /* .col-xs-8 {
-    width: 100% !important;
-  } */
+.active {
+  color:#317cbc;
+}
