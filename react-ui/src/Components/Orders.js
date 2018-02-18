@@ -22,7 +22,7 @@ class Orders extends Component {
 
     return (
       <div>
-        <h2 className='text-center'>Orders</h2>
+        <h2 className='container text-center'>Orders</h2>
         <DataTable
           className="container"
           keys="id"

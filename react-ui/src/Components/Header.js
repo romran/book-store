@@ -5,9 +5,10 @@ const Header = () => (
   <header >
     <nav className="container">
       <ul>
-        <li><NavLink exact to='/'>Stock</NavLink></li>
+        <li className="logo">Books</li>
+        <li><NavLink exact to='/'>Store</NavLink></li>
         <li><NavLink to='/orders'  activeClassName="active">Orders</NavLink></li>
-       </ul>
+        </ul>
     </nav>
   </header>
 )

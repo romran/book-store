@@ -83,3 +83,9 @@
 .active {
   color:#317cbc;
 }
+
+.logo {
+  color: #317cbc;
+  font-weight: bold;
+  padding-left: 0;
+  }

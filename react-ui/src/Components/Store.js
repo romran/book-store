@@ -3,7 +3,7 @@ import { DataTable } from 'react-data-components';
 
 const url = 'https://api.myjson.com/bins/hj9u1';
 
-class Stock extends Component {
+class Store extends Component {
 
     state = {
         data: []
@@ -30,7 +30,7 @@ class Stock extends Component {
 
         return (
             <div>
-                <h2 className='text-center'>Stock</h2>
+                <h2 className='container text-center'>Store</h2>
                 <DataTable
                     className="container"
                     keys="id"
@@ -59,5 +59,5 @@ class Stock extends Component {
 
 }
 
-export default Stock
+export default Store
 
